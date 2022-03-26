@@ -1,0 +1,50 @@
+table {
+  width: 100%;
+}
+
+.mat-cell {
+  font-size: 14px;
+  min-height: 48px;
+  text-align: center;
+  border-right: 2px solid rgb(231 224 224);
+}
+.mat-header-cell {
+  font-size: 14px;
+  min-height: 48px;
+  text-align: center;
+  font-weight: bold;
+  border-right: 2px solid rgb(231 224 224);
+}
+.mat-toolbar {
+  background-color: rgb(92 153 171);
+}
+th.mat-header-cell:first-of-type,
+td.mat-cell:first-of-type,
+td.mat-footer-cell:first-of-type {
+  padding-left: 10px;
+  padding-right: 5px;
+}
+.mat-icon {
+  padding-top: 5px;
+}
+.edit {
+  font-size: 15px;
+}
+.add {
+  font-size: 15px;
+}
+.footer {
+  height: 10px;
+}
+.addbutton {
+  margin-left: 5px;
+  background-color: #6a6262;
+  color: white;
+}
+.mat-header-cell:nth-child(even) {
+  background-color: #ebe3e3;
+}
+
+.mat-header-cell:nth-child(odd) {
+  background-color: #f7f1f1;
+}
